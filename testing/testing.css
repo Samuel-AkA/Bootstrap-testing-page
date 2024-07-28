@@ -1,0 +1,58 @@
+.First{
+    background-color: rgb(10, 173, 227);
+    height: 41.4em;
+    position: relative;
+    right: 8em;
+    display: fixed;
+}
+.navbar{
+    background-color: rgb(10, 173, 227);
+}
+.d-flex{
+    height: 2em;
+    width: 27em;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+.me-2{
+    width: 20px;
+    position: relative;
+    right: 25em;
+}
+.main{
+    width: 84.3em;
+    position: relative;
+    right: 8em;
+}
+.C{
+    width: 200%;
+}
+.V{
+    width: 100%;
+    object-fit: cover;
+}
+.btn{
+    width: 7em;
+}
+.R{
+    position: relative;
+    right: 3em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin-left:0 ;
+}
+.setting{
+    position: relative;
+    top: 11em;
+}
+.home{
+    font-size: 1.9em;
+    position: relative;
+    top: 1em;
+    height: 2em;
+}
