@@ -1,12 +1,12 @@
 .First{
-    background-color: rgb(10, 173, 227);
+    background: linear-gradient(to right, rgb(252, 203, 114), rgb(246, 134, 134), rgb(30, 226, 226));
     height: 41.4em;
     position: relative;
     right: 8em;
     display: fixed;
 }
 .navbar{
-    background-color: rgb(10, 173, 227);
+    background: linear-gradient(to right, rgb(247, 192, 90), rgb(245, 128, 128), rgb(30, 226, 226))
 }
 .d-flex{
     height: 2em;
@@ -26,12 +26,24 @@ a:link{
     position: relative;
     right: 8em;
 }
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 .C{
     width: 200%;
+   
 }
 .V{
     width: 100%;
     object-fit: cover;
+    height: 42em;
+    opacity: 0.9;
+}
+.K{
+    position: relative;
+    top: 9em;
+    font-size: 3em;
 }
 .btn{
     width: 7em;
@@ -40,7 +52,6 @@ a:link{
     position: relative;
     right: 3em;
 }
-
 .container{
     display: grid;
     grid-template-columns: 15% 85%;
