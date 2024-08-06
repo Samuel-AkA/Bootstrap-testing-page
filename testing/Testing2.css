@@ -12,6 +12,11 @@ body{
     justify-content: flex-end;
     gap: 2em;
 }
+footer{
+    position: relative;
+    top: 9em;
+    border-radius: 1em;
+}
 .ex{
     display: flex;
     gap: 2em;
